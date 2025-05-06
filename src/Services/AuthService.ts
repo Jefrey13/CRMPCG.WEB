@@ -22,5 +22,4 @@ export const AuthService={
         const response = await api.post<AuthResponse>("auth/ForgotPassword", credentials);
         return response.data;
     }
-    
 }
