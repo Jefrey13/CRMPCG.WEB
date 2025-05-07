@@ -1,40 +1,43 @@
-.notfound-container {
+.activationAccount-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 2rem;
     text-align: center;
-  }
-  .notfound-image {
-    max-width: 50%;
+}
+
+.activationAccount-image{
+    max-width: 70%;
     height: auto;
     margin-bottom: 1.5rem;
-  }
-  .notfound-title {
+}
+
+.activationAccount-title{
     font-size: 2rem;
     margin-bottom: 0.5rem;
     color: var(--text-default);
-  }
-  .notfound-description {
+}
+
+.activationAccount-description{
     font-size: 1rem;
     margin-bottom: 1rem;
-    color: #6b7280;
+    color: var(--grayColor);
     max-width: 400px;
-  }
-  .notfound-button {
+}
+.activationAccount-button{
     padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
     background: linear-gradient(
-      to right,
-      var(--color-primary-start),
-      var(--color-primary-end)
+        to right,
+        var(--color-primary-start),
+        var(--color-primary-end)
     );
     color: #fff;
     text-decoration: none;
     font-weight: 600;
     transition: opacity 0.2s ease;
   }
-  
-  .notfound-button:hover {
+  .activationAccount-button:hover {
     opacity: 0.9;
   }
