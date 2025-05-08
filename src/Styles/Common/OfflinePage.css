@@ -1,43 +1,44 @@
-.activationAccount-container{
+.offline-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     padding: 2rem;
     text-align: center;
-}
-
-.activationAccount-image{
+  }
+  
+  .offline-page__image {
     max-width: 300px;
+    width: 50%;
     height: auto;
     margin-bottom: 1.5rem;
-}
-
-.activationAccount-title{
+  }
+  
+  .offline-page__title {
     font-size: 2rem;
     margin-bottom: 0.5rem;
     color: var(--text-default);
-}
-
-.activationAccount-description{
+  }
+  
+  .offline-page__subtitle {
     font-size: 1rem;
-    margin-bottom: 1rem;
-    color: var(--grayColor);
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary, #666);
     max-width: 400px;
-}
-.activationAccount-button{
+  }
+  
+  .offline-page__button {
     padding: 0.75rem 1.5rem;
+    border: none;
     border-radius: 0.5rem;
-    background: linear-gradient(
-        to right,
-        var(--color-primary-start),
-        var(--color-primary-end)
-    );
-    color: #fff;
-    text-decoration: none;
+    background: var(--color-primary-start);
+    color: var(--bg-primary, #fff);
     font-weight: 600;
+    cursor: pointer;
     transition: opacity 0.2s ease;
   }
-  .activationAccount-button:hover {
+  
+  .offline-page__button:hover {
     opacity: 0.9;
-  }
+  }  
